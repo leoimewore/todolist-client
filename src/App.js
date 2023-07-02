@@ -3,7 +3,7 @@ import React from "react";
 
 import Homepage from "./components/Homepage";
 
-import { BrowserRouter, Routes, Route} from 'react-router-dom';
+import { BrowserRouter, Routes, Route,HashRouter} from 'react-router-dom';
 import Login from "./components/Login";
 import Signup from "./components/Signup";
 import { ReactNotifications } from 'react-notifications-component'
@@ -26,7 +26,7 @@ function App() {
   return (
     <>
     <ReactNotifications/>
-      <BrowserRouter>
+      <HashRouter>
         <Routes>
   
     
@@ -38,7 +38,7 @@ function App() {
    
   
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </>
   );
 }

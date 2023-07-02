@@ -19,9 +19,6 @@ const Login = () => {
 
 
 
-
-const{userLoggedIn,setUserLogged}=useCartContext()
-
 const navigate=useNavigate()
  
 
